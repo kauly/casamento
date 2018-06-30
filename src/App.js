@@ -1,8 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import Navegation from './components/navbar/Navegation';
 import Hero from './components/hero/Hero';
-import Noivos from './components/noivos/Noivos';
+import LuaDeMel from './components/luademel/LuaDeMel';
 import Festa from './components/festa/Festa';
+import './App.css'
 
 class App extends Component {
   render() {
@@ -10,8 +11,8 @@ class App extends Component {
       <Fragment>
         <Navegation />
         <Hero />
-        <Noivos />
         <Festa />
+        <LuaDeMel />
       </Fragment>
     );
   }

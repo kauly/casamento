@@ -13,12 +13,13 @@ const Festa = () => {
                 <Section> 
                     <h2 className="section-header">A Festa</h2>    
                 </Section>                
-                        <Tabs className='large tabs-fixed-width'>
+                        <Tabs className='large tabs-fixed-width z-depth-4'>
                             <Tab title="Local" active>
                                 <Card   className='large'
                                         header={<CardTitle image={ casaConceito }>Casa Conceito</CardTitle>}
                                         actions={[]}>
-                                    I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+                                    I am a very simple card. I am good at containing small bits of information. 
+                                    I am convenient because I require little markup to use effectively.
                                 </Card>
                             </Tab>
                             <Tab title="Como Chegar"  className="center-map">

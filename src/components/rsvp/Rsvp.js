@@ -7,7 +7,7 @@ const Rsvp = () => {
         <Row>
             <Input s={12} label="Nome" />
             <Input s={12} label="Acompanhante" />
-            <Button waves='light' large='true'>Confirmar</Button>
+            <Button waves='light' large={true}>Confirmar</Button>
         </Row>
     );
 }

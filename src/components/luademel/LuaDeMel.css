@@ -1,0 +1,24 @@
+
+.luademel {
+    height: 100vh;
+    background-color: green;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;
+ 
+}
+
+.grid-container-item-figure {
+  
+    width: 100%;
+    height: 100%;
+    object-fit: fill;  
+}
+
+.grid-container-item {
+    background-color: antiquewhite;
+    text-align:  center;
+}
+

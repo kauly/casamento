@@ -16,7 +16,6 @@ const Navegation = ({ classes }) => {
 
     return (
         <Navbar brand='MarieDu' right className={classes.nav}>
-            <NavItem href='#noivos'>Os Noivos</NavItem>
             <NavItem href='#festa'>A Festa</NavItem>
             <NavItem href='components.html'>A Lua de Mel</NavItem>
         </Navbar>
