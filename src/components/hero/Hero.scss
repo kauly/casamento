@@ -1,0 +1,53 @@
+@import '../../utils/colors.scss';
+
+@media (min-width: 600px) {
+    .hero-main {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+
+        &-info1 {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        &-info2 {
+            grid-column: span 2;
+        }
+
+        &-figure1 {
+            grid-column: span 3;
+            grid-row: span 2;
+        }
+
+        &-figure6 {
+            grid-column: span 2;
+        }
+
+
+
+    }
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.hero-main {
+    &-figure {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &-info1, &-info2 {
+        background-color: $accent-color;
+    }
+
+}
