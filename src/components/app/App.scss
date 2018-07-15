@@ -1,4 +1,5 @@
 @import '../../utils/colors.scss';
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 * {
     margin: 0;
@@ -8,5 +9,6 @@
 
 .section-header {
     text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
     
 }

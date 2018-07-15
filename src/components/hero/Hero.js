@@ -1,47 +1,27 @@
 import React from "react";
 import './Hero.scss'
 import fotoDois from '../../img/foto_dois.png';
-import fotoUm from '../../img/foto_um.png';
-import fotoTres from '../../img/foto_tres.png';
-import fotoQuatro from '../../img/foto_quatro.png';
-import fotoCinco from '../../img/foto_cinco.png';
-import fotoSeis from '../../img/foto_seis.png';
-import fotoSete from '../../img/foto_sete.png';
-import fotoOito from '../../img/foto_oito.png';
+
 
 const Hero = ({ classes }) => {
     return (
-        <main className="hero-main">
-            <section className="hero-main-info1">
-                <h2>Title</h2>
-                <p>Asda fdfdfda okfpmsdá,fs </p>
-                <a href="#festa" className="hero-main-info1-link">Vai</a>
-            </section>
-            <figure className="hero-main-figure1">
-                <img src={fotoUm} alt="foto" className="hero-main-figure"/>
-            </figure>
-            <figure className="hero-main-figure2">
-                <img src={fotoDois} alt="foto" className="hero-main-figure"/>
-            </figure>
-            <figure className="hero-main-figure3">
-                <img src={fotoTres} alt="foto" className="hero-main-figure"/>
-            </figure>
-            <figure className="hero-main-figure4">
-                <img src={fotoQuatro} alt="foto" className="hero-main-figure"/>
-            </figure>
-            <figure className="hero-main-figure5">
-                <img src={fotoCinco} alt="foto" className="hero-main-figure"/>
-            </figure>
-            <figure className="hero-main-figure6">
-                <img src={fotoSeis} alt="foto" className="hero-main-figure"/>
-            </figure>
-            <section className="hero-main-info2">
-                <h2>Title</h2>
-                <p>Asda fdfdfda okfpmsdá,fs </p>
-                <a href="#festa" className="hero-main-info2-link">Vai</a>
-            </section>
-     
-        </main>
+        <section className="hero-main ">
+          <div className="hero-main-nav">
+            adijapo
+          </div>
+          <div className="hero-main-text">
+            <p className="hero-main-text-p">
+            Queridos amigos, <br/>Estamos muito felizes em comemorar nossa união. Sempre tivemos vontade de reunir amigos e familiares, compartilhando nossa história e nossa sorte de ter encontrado um ao outro, temos 
+            certeza que será um dia muito especial para todos nós!
+            Definimos que nossa Lua de Mel, será na Itália, passando por Roma, Florenca, Siena, Verona, Veneza, Pisa e Milão. 
+            O presente que gostaríamos de ganhar de vocês, além da presença em nossa festa, são as cotas de viagem. Separamos formas diversificadas e divertidas para que todos possam participar desta viagem conosco! Desde já agradecemos a sua contribuição!
+            <br/>Beijos e abraços!
+            </p>
+          </div>
+          <div className="hero-main-img">
+      
+          </div>
+        </section>
     );
 }
 

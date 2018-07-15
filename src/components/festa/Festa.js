@@ -12,9 +12,9 @@ const Festa = () => {
                 <Section> 
                     <h2 className="section-header">Festa</h2>    
                 </Section>                
-                    <Tabs className='large tabs-fixed-width z-depth-4'>
+                    <Tabs className='large tabs-fixed-width z-depth-4 back'>
                         <Tab title="Local" active>
-                            <Card   className='large'
+                            <Card   className='large back'
                                     header={<CardTitle image={ casaConceito }>Casa Conceito</CardTitle>}
                                     actions={[]}>
                                 I am a very simple card. I am good at containing small bits of information. 
@@ -22,12 +22,12 @@ const Festa = () => {
                             </Card>
                         </Tab>
                         <Tab title="Como Chegar">
-                            <Card className='large'>
+                            <Card className='large back'>
                                 <Map /> 
                             </Card>
                         </Tab>
                         <Tab title="Confirme sua Presença">
-                            <Card className='large'>
+                            <Card className='large back'>
                                 <Rsvp />
                             </Card>
                         </Tab>
