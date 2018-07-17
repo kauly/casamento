@@ -1,13 +1,30 @@
 import React, { Component } from "react";
-import { Row, Input, Button } from 'react-materialize'
+import { Row, Input, Button, Preloader, Toast } from 'react-materialize'
+import Api from '../../utils/pagApi';
+import './Rsvp.scss';
 
 class Rsvp extends Component {
     constructor(props) {
         super(props);
         this.state = {
             nome: '',
-            acom: ''
+            acom: '',
+            loader: false
         };
+        this.saveGuest = this.saveGuest.bind(this);
+    }
+
+    saveGuest(){
+      document.getElementById('sendButton').style.display = 'none';
+      this.setState({loader: true});
+      Api.newGuest(this.state.nome, this.state.acom)
+        .then(res => {
+          if (res === 200) {
+            document.getElementById('sendButton').style.display = 'block';
+            this.setState({loader: false});
+            window.Materialize.toast('Te esperamos lá ;)', 4000);
+          }
+        });
     }
 
     render(){
@@ -15,7 +32,11 @@ class Rsvp extends Component {
             <Row>
                 <Input s={12} label="Nome" value={this.state.nome} onChange={e => this.setState({nome: e.target.value})}/>
                 <Input s={12} label="Acompanhante" value={this.state.acom} onChange={e => this.setState({acom: e.target.value})}/>
-                <Button waves='light' large={true}>Confirmar</Button>
+                <Button waves='light' large={true} onClick={this.saveGuest} id='sendButton'>Confirmar</Button>
+                {
+                  this.state.loader ? <Preloader flashing/> : null
+                }
+
             </Row>
         );
     }

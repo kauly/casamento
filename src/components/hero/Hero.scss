@@ -2,30 +2,50 @@
 
 
 .hero-main {
-    height: 100vh;
-    background-color: $accent-color;
+    height: 100%;
+    border: 25px solid $dark-primary-color;
+    background-color: $dark-primary-color;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80px 1fr;
-  
-    &-nav {
-      background-color: white;
-      grid-column: span 2;
-      
-    }
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-gap: 25px;
+
     &-text {
+ 
+   
+      background-color: $accent-color;
       font-family: 'Gloria Hallelujah', cursive;
       color: $text-primary-color;
-      font-size: 25px;
+      font-size: 2rem;
       padding: 30px;
+   
+
+    
+      
       &-p {
-        grid-row: 2 / 2;
+        display: inline-block;
+        text-align: left;
+       
+
+        &-begin {
+          display: block;
+          font-size: 30px;
+          margin-bottom: 10px;
+        }
+
+        &-final {
+          display: block;
+          font-size: 30px;
+          margin-top: 10px;
+        }
+
       }
     }
     &-img {
+      display: flex;
       background-image: url('../../img/hero_img.jpg');
       background-repeat: no-repeat;
       background-position: center;
+      
     }
 
 }
