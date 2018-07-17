@@ -1,4 +1,4 @@
-const apiUri = 'http://localhost:8088/api/';
+const apiUri = 'http://api.mariedu.com.br/api/';
 
 
 export const Api = {
