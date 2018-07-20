@@ -7,7 +7,7 @@ const LuaDeMel = ({roteiros}) => {
     return (
         <section id="luademel" className="luademel">
             <Section>
-                <h2 className="section-header">Lua de Mel</h2>
+                <h1 className="section-header">Lua de Mel</h1>
             </Section>
             <Container>
             

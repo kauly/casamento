@@ -10,9 +10,9 @@ const Festa = () => {
         <section id="festa" className="festa">
             <Container>
                 <Section> 
-                    <h2 className="section-header">Festa</h2>    
+                    <h1 className="section-header">Festa</h1>    
                 </Section>                
-                    <Tabs className='large tabs-fixed-width z-depth-4 back'>
+                    <Tabs className='large  z-depth-4 back'>
                         <Tab title="Local" active>
                             <Card   className='large back'
                                     header={<CardTitle image={ casaConceito }>Casa Conceito</CardTitle>}

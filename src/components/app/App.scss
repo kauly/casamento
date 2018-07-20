@@ -1,14 +1,30 @@
 @import '../../utils/colors.scss';
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
+@font-face {
+  font-family: Love Hewits;
+  src: url('../../utils/Love\ Hewits.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+  font-size: 15px;
+}
+
 .section-header {
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
+    color: $secondary-text-color;
     
+}
+
+@media only screen and (max-width: 768px) {
+ html{
+   font-size: 10px;
+ }
 }

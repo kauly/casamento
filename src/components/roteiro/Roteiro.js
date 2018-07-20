@@ -14,7 +14,7 @@ const Roteiro = ({ roteiro }) => {
                 <p>{roteiro.title}</p>
                 <Modal
                     header={roteiro.title}
-                    trigger={<i className="material-icons small gift green-text text-darken-2">card_giftcard</i>}>
+                    trigger={<i className="material-icons small gift white-text">card_giftcard</i>}>
                     <p>{roteiro.text}</p>
                     <p>Preço: R$ {roteiro.price}</p>
                     <Button className="red darken-4 waves-effect waves-light" onClick={handlleClick}>Comprar</Button>
