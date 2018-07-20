@@ -17,96 +17,96 @@ import imgDezesseis from '../img/milao.jpeg';
 
 const roteiros = [
     {
-        title: "Passeio em Roma",
+        title: "Vaticano",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: "125.00",
         img: imgUm
     },
     {
-        title: "Passeio em Roma",
+        title: "Pisa",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: "125.00",
         img: imgDois
     },
     {
-        title: "Passeio em Roma",
+        title: "Roma",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: "125.00",
         img: imgTres
     },
     {
-        title: "Passeio em Roma",
+        title: "Roma",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: "125.00",
         img: imgQuatro
     },
     {
-        title: "Passeio em Roma",
+        title: "Roma",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: "125.00",
         img: imgCinco
     },
     {
-        title: "Passeio em Roma",
+        title: "Siena",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: "125.00",
         img: imgSeis
     },
     {
-        title: "Passeio em Roma",
+        title: "Torre Pisa",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: "125.00",
         img: imgSete
     },
     {
-        title: "Passeio em Roma",
+        title: "Veneza",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: "125.00",
         img: imgOito
     },
     {
-        title: "Passeio em Roma",
+        title: "Veneza",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: "125.00",
         img: imgNove
     },
     {
-        title: "Passeio em Roma",
+        title: "Veneza",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: "125.00",
         img: imgDez
     },
     {
-        title: "Passeio em Roma",
+        title: "Verona",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: 125,
         img: imgOnze
     },
     {
-        title: "Passeio em Roma",
+        title: "Verona",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: 125,
         img: imgDoze
     },    {
-        title: "Passeio em Roma",
+        title: "Verona",
         text: "Pelas ruas de Roma vamos andar e tal.",
         price: 125,
         img: imgTreze
     },
     {
-      title: "Passeio em Roma",
+      title: "Coliseu",
       text: "Pelas ruas de Roma vamos andar e tal.",
       price: "125.00",
       img: imgQuatorze
   },
   {
-    title: "Passeio em Roma",
+    title: "Florença",
     text: "Pelas ruas de Roma vamos andar e tal.",
     price: "125.00",
     img: imgQuinze
   },
   {
-    title: "Passeio em Roma",
+    title: "Milão",
     text: "Pelas ruas de Roma vamos andar e tal.",
     price: "125.00",
     img: imgDezesseis

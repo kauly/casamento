@@ -74,8 +74,18 @@
   .hero-main {
     
       grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
     
+      
+
+        &-navbar-data {
+    
+          font-size: 1.5rem;
+      
+          & span {
+            
+            font-size: 0.5rem; 
+          }
+        
     
   }
-}
+}}

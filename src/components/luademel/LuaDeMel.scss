@@ -47,8 +47,19 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .luademel {
+    font-size: 1rem;
+  }
+
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
-    
+    &-item-figure {
+      height: 100px;
+  }
+
+  &-item-footer {
+      height: 25px;     
+ 
+  }
   }
 }
