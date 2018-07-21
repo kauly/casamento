@@ -7,7 +7,7 @@ const Roteiro = ({ roteiro }) => {
       Api.sendPayment(1, roteiro.title, roteiro.price);
     };
     return (
-        <div className="grid-container-item">
+        <div className="grid-container-item z-depth-4">
             <img  className="grid-container-item-figure  "   
                     src={roteiro.img} alt="item" />
             <div className="grid-container-item-footer">

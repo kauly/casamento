@@ -15,7 +15,7 @@ const Hero = () => {
             <p className="hero-main-navbar-data">Mariana e Eduardo <span>29 de setembro de 2018</span></p>
           </nav>
         
-          <div className="hero-main-text ">
+          <div className="hero-main-text z-depth-4">
             <p className="hero-main-text-p flow-text">
               <span className="hero-main-text-p-begin">Queridos amigos,</span>
               Pelas mãos do Divino Mestre nossos destinos se encontraram, estamos muitos felizes em comemorar nossa união nesta cerimônia. 

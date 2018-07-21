@@ -2,15 +2,12 @@
 
 
 .hero-main {
-   
-    
-    
     display: grid;
     color: $secondary-text-color;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     padding: 0.5rem;
-    margin: 05rem;
+    margin: 5rem;
     border: 0.2rem solid $secondary-text-color;
     &-navbar {
       display: flex;
@@ -31,14 +28,13 @@
       }
 
       & img {
-        display: none;
-        height: 18rem;
-        width: 18rem;
+        height: 15rem;
+        width: 15rem;
         z-index: 999; 
         align-self: stretch;
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 80px;
+        left: 60px;
       }
     }
     &-text {
@@ -72,20 +68,18 @@
 
 @media only screen and (max-width: 768px) {
   .hero-main {
-    
-      grid-template-columns: 1fr;
-    
-      
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    margin: 0.5rem;
+    &-navbar-data {
+      font-size: 2rem;
+    }
+    &-navbar-data {
+      font-size: 2rem;
+    }
+    &-navbar img {
+      display: none;
+    }
 
-        &-navbar-data {
-    
-          font-size: 1.5rem;
-      
-          & span {
-            
-            font-size: 0.5rem; 
-          }
-        
-    
   }
-}}
+}

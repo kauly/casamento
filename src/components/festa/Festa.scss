@@ -4,11 +4,17 @@
     
      color: $secondary-text-color;
      padding: 0.5rem;
-     margin: 05rem;
+     margin: 5rem;
      border: 0.2rem solid $secondary-text-color;
  }
 
 .row {
     margin-bottom: 0;
    
+}
+
+@media only screen and (max-width: 768px) {
+  .festa {
+    margin: 0.5rem;
+  }
 }

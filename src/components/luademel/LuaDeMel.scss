@@ -4,7 +4,7 @@
 
     font-size: 1.5rem;
     padding: 0.5rem;
-    margin: 05rem;
+    margin: 5rem;
     border: 0.2rem solid $secondary-text-color;
 }
 
@@ -49,17 +49,18 @@
 @media only screen and (max-width: 768px) {
   .luademel {
     font-size: 1rem;
+    margin: 0.5rem;
   }
 
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
     &-item-figure {
       height: 100px;
-  }
+    }
 
-  &-item-footer {
-      height: 25px;     
- 
-  }
+    &-item-footer {
+        height: 25px;     
+  
+    }
   }
 }
