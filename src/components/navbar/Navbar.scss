@@ -1,0 +1,55 @@
+@import '../../utils/colors.scss';
+
+.navbar-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  grid-column: span 2;
+  background-color: white;
+  color: $secondary-text-color;
+  font-family: 'Gloria Hallelujah', cursive;
+  &-nome {
+    border: 1px solid green;
+    margin: auto;
+    font-size: 3rem;
+  }
+
+  &-data {
+    border: 1px solid green;
+    font-size: 1rem; 
+  }
+
+  &-img {
+    border: 1px solid green;
+    margin-top: 120px;
+    margin-right: auto;
+
+    & img{
+      max-height: 15rem;
+      max-width: 15rem;
+      min-width: 2rem;
+      min-height: 2rem;
+    }
+  }
+}
+ 
+@media only screen and (max-width: 768px) {
+  .navbar-main{
+    &-nome {
+     font-size: 1.5rem;
+
+
+    }
+
+    &-img {
+      height: 5rem;
+   
+  
+    }
+
+  }
+
+
+  
+}

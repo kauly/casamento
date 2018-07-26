@@ -1,5 +1,5 @@
 import imgUm from '../img/museuvaticano.jpeg';
-import imgDois from '../img/pisa.jpeg';
+import imgDois from '../img/pisa2.jpeg';
 import imgTres from '../img/roma.jpeg';
 import imgQuatro from '../img/roma2.jpeg';
 import imgCinco from '../img/roma3.jpeg';
