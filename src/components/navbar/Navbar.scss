@@ -10,18 +10,15 @@
   color: $secondary-text-color;
   font-family: 'Gloria Hallelujah', cursive;
   &-nome {
-    border: 1px solid green;
     margin: auto;
     font-size: 3rem;
   }
 
   &-data {
-    border: 1px solid green;
     font-size: 1rem; 
   }
 
   &-img {
-    border: 1px solid green;
     margin-top: 120px;
     margin-right: auto;
 
@@ -38,18 +35,10 @@
   .navbar-main{
     &-nome {
      font-size: 1.5rem;
-
-
     }
 
     &-img {
-      height: 5rem;
-   
-  
+      display: none;
     }
-
   }
-
-
-  
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Input, Button, Preloader, Toast } from 'react-materialize'
+import { Row, Input, Button, Preloader } from 'react-materialize'
 import Api from '../../utils/pagApi';
 import './Rsvp.scss';
 
