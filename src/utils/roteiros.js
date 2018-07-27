@@ -19,7 +19,7 @@ const roteiros = [
     {
         title: "Vaticano",
         text: "Pelas ruas de Roma vamos andar e tal.",
-        price: "125.00",
+        price: "3.00",
         img: imgUm
     },
     {
