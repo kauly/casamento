@@ -23,6 +23,7 @@ class Rsvp extends Component {
             document.getElementById('sendButton').style.display = 'block';
             this.setState({loader: false});
             window.Materialize.toast('Te esperamos lá ;)', 4000);
+            this.setState({nome: '', acom: ''});
           }
         });
     }

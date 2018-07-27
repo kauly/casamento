@@ -1,4 +1,4 @@
-const apiUri = 'http://api.mariedu.com.br/api/';
+const apiUri = 'http://localhost:3001/api/';
 
 
 export const Api = {
@@ -34,7 +34,7 @@ export const Api = {
       })
     })
     .then(res => res.text())
-    .then(res => window.location = res);  
+    .then(res => res);  
   }
 
 }
