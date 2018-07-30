@@ -15,10 +15,7 @@ export const Api = {
         guests: guests
       })
     })
-    .then(res => {
-      console.log(res);
-      return res.status;
-    });
+    .then(res => res.status);
   },
 
   sendPayment(id, desc, val) {
