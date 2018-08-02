@@ -79,37 +79,37 @@ const roteiros = [
     {
         title: "Verona",
         text: "Bilhete de entrada Arena de Verona. Igrejas, templos e palácios fazem parte dessa grande descoberta.",
-        price: "165",
+        price: "165.00",
         img: imgOnze
     },
     {
         title: "Verona",
         text: "Em Verona foi escrita a história de amor de Romeu e Julieta, e porque não um jantar sofisticado e um champagne?",
-        price: "325",
+        price: "325.00",
         img: imgDoze
     },    
     {
         title: "Verona",
-        text: "Pelas ruas de Roma vamos andar e tal.",
-        price: '125',
+        text: "Comprar, comprar e comprar na ferinha ao redor da fonte da famosa Madona di Verona.",
+        price: '75.00',
         img: imgTreze
     },
     {
       title: "Coliseu",
-      text: "Pelas ruas de Roma vamos andar e tal.",
+      text: "Entrada do grandioso Coliseu.",
       price: "125.00",
       img: imgQuatorze
   },
   {
     title: "Florença",
-    text: "Pelas ruas de Roma vamos andar e tal.",
-    price: "125.00",
+    text: "Por Florença vamos estar carro conhecendo as estradas que são lindas e as vinícolas mais próximas.",
+    price: "85.00",
     img: imgQuinze
   },
   {
     title: "Milão",
-    text: "Pelas ruas de Roma vamos andar e tal.",
-    price: "125.00",
+    text: "Viajar para Milão é colecionar memórias. Entrada na Catedral de Milão e na saída um tradicional sorvete italiano.",
+    price: "165.00",
     img: imgDezesseis
 }
 ];

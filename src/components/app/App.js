@@ -11,11 +11,7 @@ class App extends Component {
     this.state = {
       roteiros: Roteiros
     }
-    console.log(this.state.roteiros)
   }
-
-
-  
   
   render() {
     return (
