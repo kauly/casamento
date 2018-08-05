@@ -1,4 +1,4 @@
-const apiUri = 'http://api.mariedu.com.br/api/';
+const apiUri = 'https://api.mariedu.com.br/api/';
 
 
 export const Api = {
