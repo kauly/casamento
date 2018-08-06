@@ -1,0 +1,48 @@
+@import '../../utils/colors.scss';
+
+.item {
+  background-color: $secondary-text-color;
+  color: $text-primary-color;
+  text-align:  center;
+  & p {
+    display: block;
+  }
+  &:hover{
+    transform: scale(1.05);
+  }
+
+  &-preco {
+    background-color: #EF5350;
+    color: beige;  
+  }
+
+  &-buy {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #00E676;
+  }
+
+  &-figure {
+    width: 100%;
+    height: 180px;
+    object-fit: fill; 
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    item-figure {
+      height: 100px;
+    }
+
+    item-footer {
+        height: 25px;     
+  
+    }
+  
+}
