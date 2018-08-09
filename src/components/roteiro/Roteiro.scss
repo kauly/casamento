@@ -1,12 +1,12 @@
 @import '../../utils/colors.scss';
 
 .item {
+  display: flex;
+  flex-direction: column;
   background-color: $secondary-text-color;
   color: $text-primary-color;
   text-align:  center;
-  & p {
-    display: block;
-  }
+ 
   &:hover{
     transform: scale(1.05);
   }
@@ -19,7 +19,7 @@
   &-buy {
     cursor: pointer;
     text-transform: uppercase;
-    background-color: #00E676;
+    background-color: #2E7D32;
   }
 
   &-figure {
@@ -27,22 +27,16 @@
     height: 180px;
     object-fit: fill; 
   }
-
-
 }
 
-
-
 @media only screen and (max-width: 768px) {
-
-
-    item-figure {
+  .item{
+    &-figure {
       height: 100px;
     }
-
-    item-footer {
+    &-footer {
         height: 25px;     
-  
     }
-  
+  }
+
 }

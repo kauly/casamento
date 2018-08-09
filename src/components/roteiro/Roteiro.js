@@ -19,21 +19,18 @@ const Roteiro = ({ roteiro }) => {
         <div className="item z-depth-4">
             <img  className="item-figure"   
                     src={roteiro.img} alt="item" />
-            <div className="item-footer">
-                <p>{roteiro.title}</p>
-                <p className="item-preco">R$ {roteiro.price}</p>
-                
-                <Modal
-                    header={roteiro.title}
-                    trigger={<p className="item-buy">comprar</p>}>
-                    <p>{roteiro.text}</p>
-                    <p>Preço: R$ {roteiro.price}</p>
-                    <Button className="red darken-4 waves-effect waves-light" id="payButton" onClick={handlleClick}>Comprar</Button>
-                    {
-                      state.loader ? <Preloader flashing/> : null
-                    }
-                </Modal>
-            </div>                       
+            <p>{roteiro.title}</p>
+            <p className="item-preco">R$ {roteiro.price}</p>
+            <Modal
+                header={roteiro.title}
+                trigger={<p className="item-buy">comprar</p>}>
+                <p>{roteiro.text}</p>
+                <p>Preço: R$ {roteiro.price}</p>
+                <Button className="red darken-4 waves-effect waves-light" id="payButton" onClick={handlleClick}>Comprar</Button>
+                {
+                  state.loader ? <Preloader flashing/> : null
+                }
+            </Modal>
         </div>    
     );
 }

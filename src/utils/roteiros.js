@@ -42,18 +42,18 @@ const roteiros = [
     },
     {
         title: "Roma",
-        text: "Conhecer o Panteão e tudo a sua volta. O resto do dia vamos experimenter o melhor da gastronomia romana nos restaurantes que ficam ao ar livre.",
+        text: "Conhecer o Panteão e tudo a sua volta. O resto do dia vamos experimentar o melhor da gastronomia romana nos restaurantes que ficam ao ar livre.",
         price: "255.00",
         img: imgCinco
     },
     {
         title: "Siena",
-        text: "Bilhete de entrada Torre del Mangia + Palazzo Pubblico + Santa Maria della Scala. Sim! Nós queremos subir os 505 degraus da Torre del Mangia!",
+        text: "Bilhete de entrada da Torre del Mangia + Palazzo Pubblico + Santa Maria della Scala. Sim! Nós queremos subir os 505 degraus da Torre del Mangia!",
         price: "205.00",
         img: imgSeis
     },
     {
-        title: "Torre Pisa",
+        title: "Pisa",
         text: "Bilhete de entrada da Torre. São 296 degraus!!",
         price: "125.00",
         img: imgSete
@@ -78,7 +78,7 @@ const roteiros = [
     },
     {
         title: "Verona",
-        text: "Bilhete de entrada Arena de Verona. Igrejas, templos e palácios fazem parte dessa grande descoberta.",
+        text: "Bilhete de entrada da Arena de Verona. Igrejas, templos e palácios fazem parte dessa grande descoberta.",
         price: "165.00",
         img: imgOnze
     },
@@ -95,7 +95,7 @@ const roteiros = [
         img: imgTreze
     },
     {
-      title: "Coliseu",
+      title: "Roma",
       text: "Entrada do grandioso Coliseu.",
       price: "125.00",
       img: imgQuatorze
