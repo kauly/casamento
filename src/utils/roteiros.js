@@ -19,7 +19,7 @@ const roteiros = [
     {
         title: "Vaticano",
         text: "Bilhete de entrada do museu do Vaticano. Conhecer a história do mundo.",
-        price: "3.00",
+        price: "245.00",
         img: imgUm
     },
     {

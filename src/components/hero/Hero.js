@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
 import './Hero.scss';
-
+import heroImg from '../../img/hero-black.jpeg';
 const Hero = () => {
     return (
         <section className="hero-main ">
@@ -16,8 +16,8 @@ const Hero = () => {
               <span className="hero-main-text-p-final">Beijos e abraços!</span>
             </p>
           </div>
-          <div className="hero-main-img ">
-            
+          <div className="hero-main-img z-depth-4">
+            <img src={heroImg}/>
           </div>
         
         </section>
